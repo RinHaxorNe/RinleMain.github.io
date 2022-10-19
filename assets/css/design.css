@@ -1,0 +1,38 @@
+.firstHalf
+{
+    display:none;
+    width: 100%;
+}
+
+.secondHalf
+{
+    width: 100%;
+}
+.secondHalf form
+{
+    background-color:rgba(255, 255, 255, 0.04);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+.secondHalf blockquote
+{
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    .firstHalf
+    {
+        display:block;
+        width: 30%;
+        float:left;
+    }
+
+    .secondHalf
+    {
+        width: 70%;
+        float: right;
+    }
+}
